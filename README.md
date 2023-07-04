@@ -19,11 +19,14 @@ Each line in the train/test datasets contain the following fields:
 |`xx_label_subject`| label for subject concept in language `xx`, where `xx` is a language ISO code|
 |`xx_label_obbject`| label for object concept in language `xx`, where `xx` is a language ISO code|
 
-For ease of use of the datasets, we also provide them in the following format: each line contains subject label in a language, object label in the same language, relation type, ISO language code, concept Wikidata id for subject, concept Wikidata id for object and Wikidata property id.
+For ease of use, we also provide the MUSCLE dataset in the following format: each line contains subject label in a language, object label in the same language, relation type, ISO language code, concept Wikidata id for subject, concept Wikidata id for object and Wikidata property id.
 - Random split: [train dataset](https://drive.google.com/uc?id=1MtwHxRgPQqTh4KWU_XoZVsAdPbIjyOp-&export=download) and [test dataset](https://drive.google.com/uc?id=1EAT_HnVSmkNDewcomRieMwiq7LmG7G63&export=download)
 - Semantic split: [train dataset](https://drive.google.com/uc?id=1KzyEKdIG8wtd7126KpLttXRtboRRDk7L&export=download) and [test dataset](https://drive.google.com/uc?id=1UvgvBEuPBhFU-nEbZxvNbkI9p1ZsX5-V&export=download)
 
-###**Section 3
+We describe the scripts and notebooks to reproduce the results in the different sections of the paper.
+
+### **Section 3. Data Design**
+The notebook `complete_dataset_generator.ipynb` is used to create the
 
 
 
