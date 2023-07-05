@@ -38,7 +38,7 @@ Once the file `dataset_P_L25.csv` and the Louvain communities are obtained, the 
 - For the random split, the subject/object pairs in `dataset_P_L25.csv` are randomly split (50% train / 50% test) stratified by the relation type. Note that `dataset_P_L25.csv` file is the union of the train and test dataset of the MUSCLE random split.
 - For the semantic split, we split the dataset by semantic domains represented by the Louvain communities detected previously. We added whole communities to each split minimizing the amount of relationships between splits. Such relationships are discarded to isolate semantic splits. The notebook `semantic_split_MUSCLE.ipynb` contains the code to obtain the semantic split.
 
-The stats of the MUSCLE dataset (concepts/relations, multiwords, participation) can be obtained with notebook `stats_muscle.ipynb`.
+The stats of the MUSCLE dataset (number of concepts/relations in Table 4, multiwords in Figure 1, participation in Figure 2) can be obtained with notebook `stats_muscle.ipynb`.
 
 ### **Section 6. Dataset Evaluation**
 
