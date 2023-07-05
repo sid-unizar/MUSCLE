@@ -4,7 +4,7 @@ This repository contains the datasets, scripts and notebooks to reproduce the re
 
 MUSCLE dataset contains five types of lexico-semantic relations (hypernymy, hyponymy, meronymy, holonymy and antonymy) and a random relation in 25 languages. The data was extracted from Wikidata, a large and highly multilingual factual Knowledge Graph. The covered languages and their ISO 639-1 codes are: Arabic (ar), Catalan (ca), Czech (cs), Danish (da), German (de), English (en), Spanish (es), Farsi (fa), Finnish (fi), French (fr), Hebrew (he), Hungarian (hu), Indonesian (id), Italian (it), Japanese (ja), Korean (ko), Dutch (nl), Polish (pl), Portuguese (pt), Russian (ru), Serbian (sr), Swedish (sv), Turkish (tr), Ukrainian (uk), and Chinese (zh).
 
-The MUSCLE dataset can be download (csv files):
+The MUSCLE dataset can be downloaded (csv files):
 - Random split (identified by RanS in the paper): [train dataset](https://drive.google.com/uc?id=1vXn30idOKST5vdfcW7AHHcGO0f2Piu_U&export=download) and [test dataset](https://drive.google.com/uc?id=13utdPI11VYjSpYOX5vIBJ4TH_1vF7hDP&export=download)
 - Semantic split (identified by SemS in the paper): [train dataset](https://drive.google.com/uc?id=1-X3DZZu_GMd22T2jnvwiA39hPiaaHwgx&export=download) and [test dataset](https://drive.google.com/uc?id=1fVV2iObSLesVRnqfbrFbgCTR-_eESSJa&export=download)
 
