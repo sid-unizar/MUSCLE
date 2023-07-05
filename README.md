@@ -8,7 +8,7 @@ The MUSCLE dataset can be downloaded (csv files):
 - Random split (identified by RanS in the paper): [train dataset](https://drive.google.com/uc?id=1vXn30idOKST5vdfcW7AHHcGO0f2Piu_U&export=download) and [test dataset](https://drive.google.com/uc?id=13utdPI11VYjSpYOX5vIBJ4TH_1vF7hDP&export=download)
 - Semantic split (identified by SemS in the paper): [train dataset](https://drive.google.com/uc?id=1-X3DZZu_GMd22T2jnvwiA39hPiaaHwgx&export=download) and [test dataset](https://drive.google.com/uc?id=1fVV2iObSLesVRnqfbrFbgCTR-_eESSJa&export=download)
 
-Each line in the train/test datasets contain the following fields: 
+Each line in the train/test datasets contains the following fields: 
 
 |Field| Description|
 |-------|------|
