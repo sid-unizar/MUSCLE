@@ -36,7 +36,7 @@ For the semantic split, we study the Louvain communities that appear using the u
 ### **Section 5. Dataset Configurations**
 Once the file `dataset_P_L25.csv` and the Louvain communities are obtained, the final train/test datasets of MUSCLE are generated:
 - For the random split, the subject/object pairs in `dataset_P_L25.csv` are randomly split (50% train / 50% test) stratified by the relation type. Note that `dataset_P_L25.csv` file is the union of the train and test dataset of the MUSCLE random split.
-- For the semantic split, we split the dataset by semantic domains represented by the Louvain communities detected previously. We added whole communities to each split minimizing the amount of relationships between splits. Such relationships are discarded to isolate semantic splits. The notebook `blablab` contains the code to obtain the semantic split.
+- For the semantic split, we split the dataset by semantic domains represented by the Louvain communities detected previously. We added whole communities to each split minimizing the amount of relationships between splits. Such relationships are discarded to isolate semantic splits. The notebook `semantic_split_MUSCLE.ipynb` contains the code to obtain the semantic split.
 
 ### **Section 6. Dataset Evaluation**
 
