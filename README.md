@@ -42,3 +42,5 @@ The stats of the MUSCLE dataset (number of concepts/relations in Table 4, multiw
 
 ### **Section 6. Dataset Evaluation**
 **Subsections 6.1, 6.3, 6.4**: Fine-tuning experiments in these sections can be reproduced with the Python script `XL_lrc_train_evaluate.py`. Some usage examples of the the script are in the nootebook `XL_train_evaluate_launcher.ipynb`. The notebook `process_results_muscle.ipynb` can be used to process the result files produced by the script. In that notebook, our results are used, but it can be easily modified to process any other results (Tables 5, 7, 8, 12, 13 and 14 in the paper).
+
+**Subsection 6.4**: The tables containing the risk metrics (Tables 6, 9, 10 and 11)
