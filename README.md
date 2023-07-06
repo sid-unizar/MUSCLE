@@ -23,7 +23,17 @@ For ease of use, we also provide the MUSCLE dataset in the following format (tsv
 - Random split: [train dataset](https://drive.google.com/uc?id=1MtwHxRgPQqTh4KWU_XoZVsAdPbIjyOp-&export=download) and [test dataset](https://drive.google.com/uc?id=1EAT_HnVSmkNDewcomRieMwiq7LmG7G63&export=download)
 - Semantic split: [train dataset](https://drive.google.com/uc?id=1KzyEKdIG8wtd7126KpLttXRtboRRDk7L&export=download) and [test dataset](https://drive.google.com/uc?id=1UvgvBEuPBhFU-nEbZxvNbkI9p1ZsX5-V&export=download)
 
-We describe the scripts and notebooks to reproduce the results in the different sections of the paper.
+We give a brief description of the noteboooks, the scripts and other datasets used in the paper. See the mentioned Section for a extended description:
+- [Raw dataset]((https://drive.google.com/uc?id=1RH8U3TGbUtSuSHk32byeQ2IJ4vn850WT&export=download): raw dataset from which MUSCLE is built (see Section 3 bellow).
+- `louvainGlobalWithIDs.csv`: file containing the detected Louvain communities (Section 4 bellow).
+- `complete_dataset_generator.ipynb`: notebook to generate a complete dataset (Section 3 bellow).
+- `semantic_split_MUSCLE.ipynb`: notebook to generate the train/test datasets for the semantic split of MUSCLE (Section 5 bellow).
+- `stats_muscle.ipynb`: some stats of the MUSCLE datasets (Section 5 bellow).
+- `XL_lrc_train_evaluate.py`: Python script to fine-tune/evaluate the MUSCLE dataset (Section 6 bellow).
+- `XL_train_evaluate_launcher.ipynb`: usage examples of the Python script (Section 5 bellow).
+- `token_distribution_dataset.ipynb`: risk metrics (Section 6 bellow).
+
+All the notebooks are fully functional in Google Colab.
 
 ### **Section 3. Data Design**
 As explained in Section 3 of the paper, and after analyzing the Wikipedia concepts and properties that best fit the five lexico-semantic relationship considered, the starting point to build the MUSCE dataset is the [following *raw* dataset](https://drive.google.com/uc?id=1RH8U3TGbUtSuSHk32byeQ2IJ4vn850WT&export=download) (1.5 GB of uncompressed text). The structure of this file is similar to that the MUSCLE dataset, except for there is no hypernoym relation (the hyperonym relations are created later reversing some of the hyponym relations). There are $2.605.088$ of subject/concepts pairs and their regarding relationships in $40$ languages ($42$ languages, if we consider that for Chinese, we get also the traditional Chinese, zh-hant, and the simplified Chinese, zh-hans). For a specific language, the translation labels for the subject and the object concepts are both available or both not (marked in the file with `\N`). We consider that this raw dataset can be very useful to the community to create new datasets.
