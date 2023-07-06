@@ -41,5 +41,4 @@ Once the file `dataset_P_L25.csv` and the Louvain communities are obtained, the 
 The stats of the MUSCLE dataset (number of concepts/relations in Table 4, multiwords in Figure 1, participation in Figure 2) can be obtained with notebook `stats_muscle.ipynb`.
 
 ### **Section 6. Dataset Evaluation**
-
-
+**Subsections 6.1, 6.3, 6.4** Fine-tuning experiments in these sections can be reproduced with the Python script `XL_lrc_train_evaluate.py`. Some usage examples of the the script are in the nootebook `XL_train_evaluate_launcher.ipynb`. The notebook `process_results_muscle.ipynb` can be used to process the result files produced by the script. In that notebook, our results are used, but it can be easily modified to process any other results.
