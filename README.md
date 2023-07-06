@@ -23,8 +23,8 @@ For ease of use, we also provide the MUSCLE dataset in the following format (tsv
 - Random split: [train dataset](https://drive.google.com/uc?id=1MtwHxRgPQqTh4KWU_XoZVsAdPbIjyOp-&export=download) and [test dataset](https://drive.google.com/uc?id=1EAT_HnVSmkNDewcomRieMwiq7LmG7G63&export=download)
 - Semantic split: [train dataset](https://drive.google.com/uc?id=1KzyEKdIG8wtd7126KpLttXRtboRRDk7L&export=download) and [test dataset](https://drive.google.com/uc?id=1UvgvBEuPBhFU-nEbZxvNbkI9p1ZsX5-V&export=download)
 
-We give a brief description of the noteboooks, the scripts and other datasets used in the paper. See the mentioned Section for a extended description:
-- [Raw dataset]((https://drive.google.com/uc?id=1RH8U3TGbUtSuSHk32byeQ2IJ4vn850WT&export=download): raw dataset from which MUSCLE is built (see Section 3 bellow).
+We give a brief description of the noteboooks, the scripts and other datasets used in the paper. See the mentioned Section in this document for a extended description:
+- [Raw dataset](https://drive.google.com/uc?id=1RH8U3TGbUtSuSHk32byeQ2IJ4vn850WT&export=download): raw dataset from which MUSCLE is built (see Section 3 bellow).
 - `louvainGlobalWithIDs.csv`: file containing the detected Louvain communities (Section 4 bellow).
 - `complete_dataset_generator.ipynb`: notebook to generate a complete dataset (Section 3 bellow).
 - `semantic_split_MUSCLE.ipynb`: notebook to generate the train/test datasets for the semantic split of MUSCLE (Section 5 bellow).
