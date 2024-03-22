@@ -1,6 +1,6 @@
 # MUSCLE
 ## Building MUSCLE, a Dataset for MUltilingual Semantic Classification of Links between Entities
-This repository contains the datasets, scripts and notebooks to reproduce the results of the submitted paper *"Building MUSCLE, a Dataset for MUltilingual Semantic Classification of Links between Entities"*.
+This repository contains the datasets, scripts and notebooks to reproduce the results of the paper *"Building MUSCLE, a Dataset for MUltilingual Semantic Classification of Links between Entities"*.
 
 MUSCLE dataset contains five types of lexico-semantic relations (hypernymy, hyponymy, meronymy, holonymy and antonymy) and a random relation in 25 languages. The data was extracted from Wikidata, a large and highly multilingual factual Knowledge Graph. The covered languages and their ISO 639-1 codes are: Arabic (ar), Catalan (ca), Czech (cs), Danish (da), German (de), English (en), Spanish (es), Farsi (fa), Finnish (fi), French (fr), Hebrew (he), Hungarian (hu), Indonesian (id), Italian (it), Japanese (ja), Korean (ko), Dutch (nl), Polish (pl), Portuguese (pt), Russian (ru), Serbian (sr), Swedish (sv), Turkish (tr), Ukrainian (uk), and Chinese (zh).
 
